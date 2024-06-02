@@ -2,6 +2,7 @@
   "name": "aws-resume-challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://highdefing.github.io/app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
