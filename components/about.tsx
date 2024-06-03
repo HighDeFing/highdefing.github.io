@@ -41,7 +41,7 @@ export default function About() {
           </p>
 
           <p className="mb-3">
-              I am also familiar with <span className="font-medium">TypeScript</span>. And currently hold <span className="underline">AWS Certified Cloud Practitioner</span> certificate {" "}
+              I am also familiar with <span className="font-medium">TypeScript</span>. And currently hold <a href="https://www.credly.com/badges/30b4cecf-e0d0-47d3-90bc-7cf2bbfdcf90/linked_in_profile" target="_blank" className="underline">AWS Certified Cloud Practitioner</a> certificate {" "}
               I am currently looking for a{" "} <span className="font-medium">full-time position</span> as a software
               developer especially in Cloud Computing.
           </p>
