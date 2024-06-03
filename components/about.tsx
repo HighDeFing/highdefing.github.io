@@ -21,7 +21,7 @@ export default function About() {
               I'm an enthusiast in <span className="italic">Machine Learning, Data Science and Cloud Computing</span>,
               doing research and courses on the subjects {" "}
               I have worked as a <span className="font-medium">Software Engineer</span> mostly focused on development on {" "}
-              <span className="underline">Web Applications</span>.
+              <span className="italic">Web Applications</span>.
 
           </p>
 
