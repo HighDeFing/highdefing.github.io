@@ -62,8 +62,8 @@ export const projectsData = [
   {
     title: "SearchThesis",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "This is a web application that uses haystack.deepset for semantic search of past thesis.",
+    tags: ["Python", "ElasticSearch", "Haystack.deepset", "Fastapi"],
     imageUrl: searchImg,
   },
     {
