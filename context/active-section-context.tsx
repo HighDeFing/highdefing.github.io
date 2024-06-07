@@ -1,40 +1,45 @@
+/*
+
+This file is used by the header to make smooth transitions of a grey slider when we enter into a new section
+Is supposed to provide the context inside a section
+*/
+
+
 "use client";
 
+import React, {createContext, useState, useContext} from 'react';
+import { links } from "@/lib/data";
 import type { SectionName } from "@/lib/types";
-import React, { useState, createContext, useContext } from "react";
 
 type ActiveSectionContextProviderProps = {
-  children: React.ReactNode;
+    children: React.ReactNode;
 };
 
 type ActiveSectionContextType = {
-  activeSection: SectionName;
-  setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>;
-  timeOfLastClick: number;
-  setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
-};
+    activeSection: SectionName;
+    setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>;
+    timeOfLastClick: number;
+    setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
+}
 
-export const ActiveSectionContext =
-  createContext<ActiveSectionContextType | null>(null);
-
+export const ActiveSectionContext = createContext<ActiveSectionContextType | null>(null);
 export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProviderProps) {
-  const [activeSection, setActiveSection] = useState<SectionName>("Home");
-  const [timeOfLastClick, setTimeOfLastClick] = useState(0); // we need to keep track of this to disable the observer temporarily when user clicks on a link
+    const [activeSection, setActiveSection] = useState<SectionName>("Home");
+    const [timeOfLastClick, setTimeOfLastClick] = useState(0);
 
-  return (
-    <ActiveSectionContext.Provider
-      value={{
-        activeSection,
-        setActiveSection,
-        timeOfLastClick,
-        setTimeOfLastClick,
-      }}
-    >
-      {children}
-    </ActiveSectionContext.Provider>
-  );
+    return (
+       <ActiveSectionContext.Provider value={{
+           activeSection,
+           setActiveSection,
+           timeOfLastClick,
+           setTimeOfLastClick
+       }}>
+           {children}
+       </ActiveSectionContext.Provider>
+
+    );
 }
 
 export function useActiveSectionContext() {
