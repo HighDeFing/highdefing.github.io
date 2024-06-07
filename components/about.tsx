@@ -35,7 +35,7 @@ export default function About() {
           <p className="mb-3">
               My core Technologies are: {" "}
               <span className="font-medium">
-             Git, Next.js (React), mongoDB, Postgresaql, Docker, PowerBI.
+             Git, Next.js (React), mongoDB, Docker, PowerBI.
             </span> {" "}
 
           </p>
