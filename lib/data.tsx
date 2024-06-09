@@ -33,29 +33,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BSc Computer Science",
+    location: "Caracas, Venezuela",
+    company: "Universidad Central de Venezuela",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I graduated with a publication in Natural Language Processing for Semantic Search in Academic Repositories",
+    icon: <LuGraduationCap />,
+    date: "2014 - 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer Internship",
+    location: "Caracas, Venezuela",
+    company: "Empero",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Bug tested a Telegram conversational bot written in Python that used Rasa NLP.",
+    icon: <CgWorkAlt />,
+    date: "2019 - 2019",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer Internship",
+    location: "Caracas, Venezuela",
+    company:"Allie (startup)",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Implemented a Facebook conversational bot that sells products using Python and the library fbmessenger",
+    icon: <CgWorkAlt />,
+    date: "2019 - 2019",
   },
+  {
+    title: "Freelance Backend Developer",
+    location: "Colorado (remotely), US",
+    company: "Ozone metaverse engine",
+    description:
+      "Designed and implemented a program using Python and Flask to upload files to a server.",
+    icon: <FaReact />,
+    date: "2020 - 2020",
+  },
+  {
+    title: "Freelance Frontend Developer",
+    location: "Colorado (remotely), US",
+    company: "Ozone metaverse engine",
+    description:
+      "Implemented a User Interface for the different subscription plans using React.js and styling with SCSS.",
+    icon: <FaReact />,
+    date: "2021 - 2021",
+  },
+  {
+    title: "Account Manager",
+    location: "Miami (Hybrid), FL",
+    company: "Triallies LLC",
+    description:
+      "Managed multiple accounts from various services and systems, requirement analysis and testing",
+    icon: <FaReact />,
+    date: "2024 - Current",
+  }
 ] as const;
 
 export const projectsData = [
@@ -84,15 +114,12 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "SQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Docker",
+  "C++",
+  "Oracle",
+  "Postgresql",
+  "PowerBI"
 ] as const;
