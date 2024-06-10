@@ -13,15 +13,20 @@ import { useInView } from "react-intersection-observer";
 
 export default function Experience() {
 
-    const { ref, inView } = useSectionInView("Experience",  0.20);
+    const { ref } = useSectionInView("Experience",  0.65);
 
+    /* This here is to make the visible prorperty different than the header*/
+    const [ ref1, inView ] = useInView({threshold:0.1})
+
+
+    //console.log('inView:', inView);
 
     return (
-        <section ref={ref} id="experience">
+        <section ref={ref} id="experience" className="scroll-mt-48 mb-48 sm:mb-48">
             <SectionHeading>
                 My Experience
             </SectionHeading>
-
+            <div ref={ref1}>
             <VerticalTimeline lineColor="">
                 {
                     experiencesData.map((item, index) => (
@@ -56,6 +61,7 @@ export default function Experience() {
                     ))
                 }
             </VerticalTimeline>
+            </div>
 
         </section>
     );
