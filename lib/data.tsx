@@ -1,7 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { AiOutlinePython } from "react-icons/ai";
 import { LuGraduationCap } from "react-icons/lu";
+import { PiStudent } from "react-icons/pi";
 import searchImg from "@/public/search_thesis.png";
 
 export const links = [
@@ -47,7 +49,7 @@ export const experiencesData = [
     company: "Empero",
     description:
       "Bug tested a Telegram conversational bot written in Python that used Rasa NLP.",
-    icon: <CgWorkAlt />,
+    icon: <AiOutlinePython />,
     date: "2019 - 2019",
   },
   {
@@ -56,7 +58,7 @@ export const experiencesData = [
     company:"Allie (startup)",
     description:
       "Implemented a Facebook conversational bot that sells products using Python and the library fbmessenger",
-    icon: <CgWorkAlt />,
+    icon: <AiOutlinePython />,
     date: "2019 - 2019",
   },
   {
@@ -65,7 +67,7 @@ export const experiencesData = [
     company: "Ozone metaverse engine",
     description:
       "Designed and implemented a program using Python and Flask to upload files to a server.",
-    icon: <FaReact />,
+    icon: <AiOutlinePython />,
     date: "2020 - 2020",
   },
   {
@@ -83,9 +85,18 @@ export const experiencesData = [
     company: "Triallies LLC",
     description:
       "Managed multiple accounts from various services and systems, requirement analysis and testing",
-    icon: <FaReact />,
+    icon: <CgWorkAlt />,
     date: "2024 - Current",
-  }
+  },
+    {
+    title: "MSc Computer Science",
+    location: "Miami, FL",
+    company: "Florida International University",
+    description:
+      "Currently enrolled with focus in Artificial Intelligence and Cloud Computing",
+    icon: <PiStudent />,
+    date: "2024 - Current",
+  },
 ] as const;
 
 export const projectsData = [
