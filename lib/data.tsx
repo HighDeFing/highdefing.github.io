@@ -80,7 +80,7 @@ export const experiencesData = [
     date: "2021 - 2021",
   },
   {
-    title: "Account Manager Assistant and IT Support",
+    title: "Account Manager Assistant & IT Support",
     location: "Miami (Hybrid), FL",
     company: "Triallies LLC",
     description:
