@@ -103,7 +103,7 @@ export const projectsData = [
   {
     title: "SearchThesis",
     description:
-      "This is a web application that uses haystack.deepset for semantic search of past thesis.",
+      "This is a web application that uses haystack.deepset for semantic search of 8,000 past thesis.",
     tags: ["Python", "ElasticSearch", "Haystack.deepset", "Fastapi"],
     imageUrl: searchImg,
   },
