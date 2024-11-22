@@ -5,6 +5,7 @@ import { AiOutlinePython } from "react-icons/ai";
 import { LuGraduationCap } from "react-icons/lu";
 import { PiStudent } from "react-icons/pi";
 import searchImg from "@/public/search_thesis.png";
+import gobudgetImg from "@/public/gobudget.png";
 
 export const links = [
   {
@@ -106,6 +107,15 @@ export const projectsData = [
       "This is a web application that uses haystack.deepset for semantic search of 8,000 past thesis.",
     tags: ["Python", "ElasticSearch", "Haystack.deepset", "Fastapi"],
     imageUrl: searchImg,
+    githubUrl: "https://github.com/HighDeFing/thesis_v4"
+  },
+  {
+    title: "BudgetIT",
+    description:
+      "This is a web application where a user can create budgets using pdfs statements.",
+    tags: ["Python", "React", "ExpressJS", "POSTGRESQL", "IndexLlamma"],
+    imageUrl: gobudgetImg,
+    githubUrl: "https://github.com/gobudget/gobudget"
   },
 ] as const;
 
@@ -125,5 +135,6 @@ export const skillsData = [
   "C++",
   "Oracle",
   "Postgresql",
-  "PowerBI"
+  "PowerBI",
+  "ExpressJS"
 ] as const;
