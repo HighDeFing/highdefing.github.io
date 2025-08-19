@@ -105,7 +105,7 @@ export const experiencesData = [
     company: "Zoox, Inc.",
     description:
       "Currently working as an autonomous vehicle operator, ensuring the safe and efficient operation of autonomous vehicles in urban environments.",
-    icon: <img src={zooxLogo.src} alt="Zoox Logo" className="w-full h-full object-contain"/>,
+    icon: <img src={"https://github.com/HighDeFing/highdefing.github.io/blob/main/public/zoox_logo.jpeg"} alt="Zoox Logo" className="w-full h-full object-contain"/>,
       date: "2025 - Current",
     }
 ] as const;
