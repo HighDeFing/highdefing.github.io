@@ -88,7 +88,7 @@ export const experiencesData = [
     description:
       "Provided customer service for other systems (including VoIP), installing and managing web applications for end user customers.",
     icon: <CgWorkAlt />,
-    date: "2024 - Current",
+    date: "2024 - 2024",
   },
     {
     title: "MSc Computer Science",
