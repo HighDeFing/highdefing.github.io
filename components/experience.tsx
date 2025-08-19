@@ -45,7 +45,15 @@ export default function Experience() {
                                  borderRight: "0.4rem solid #9ca3af"
                              }}
                              date={item.date}
-                             icon={item.icon}
+                             icon={
+                                    item.link ? (
+                                        <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                            {item.icon}
+                                        </a>
+                                    ) : (
+                                        item.icon
+                                    )
+                                }
                              iconStyle={{
                                  background: "white",
                                  fontSize: "1.5rem",

@@ -6,8 +6,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import { PiStudent } from "react-icons/pi";
 import searchImg from "@/public/search_thesis.png";
 import gobudgetImg from "@/public/gobudget.png";
-import zooxLogo from "@/public/zoox_logo.jpeg";
-import FIULogo from "@/public/FIU Alone.png";
+import ZooxLogo from "@/public/ZooxSVG.svg";
+import FIULogo from "@/public/FIUSVG.svg";
 
 export const links = [
   {
@@ -97,8 +97,9 @@ export const experiencesData = [
     company: "Florida International University",
     description:
         "Currently enrolled with focus in Artificial Intelligence and Cloud Computing",
-    icon: <img src={FIULogo.src} alt="FIU Logo" className="w-full h-full object-contain"/>,
+    icon: <FIULogo className="w-full h-full object-contain" />,
     date: "2024 - Current",
+    link: "https://www.fiu.edu/"
   },
   {
     title: "Autonomous Vehicle Operator",
@@ -106,8 +107,9 @@ export const experiencesData = [
     company: "Zoox, Inc.",
     description:
       "Currently working as an autonomous vehicle operator, ensuring the safe and efficient operation of autonomous vehicles in urban environments.",
-    icon: <img src={zooxLogo.src} alt="Zoox Logo" className="w-full h-full object-contain"/>,
-      date: "2025 - Current",
+    icon: <ZooxLogo className="w-full h-full object-contain" />,
+    date: "2025 - Current",
+    link: "https://zoox.com/"
     }
 ] as const;
 
