@@ -107,7 +107,7 @@ export const experiencesData: Experience[] = [
     company: "Florida International University",
     description:
         "Currently enrolled with focus in Artificial Intelligence and Cloud Computing",
-    icon: <FIULogo className="w-full h-full object-contain" />,
+     icon: <FIULogo className="w-auto h-auto max-w-[250px] max-h-[250px] sm:max-w-[250px] sm:max-h-[250px] object-contain" />,
     date: "2024 - Current",
     link: "https://www.fiu.edu/"
   },
@@ -117,7 +117,7 @@ export const experiencesData: Experience[] = [
     company: "Zoox, Inc.",
     description:
       "Currently working as an autonomous vehicle operator, ensuring the safe and efficient operation of autonomous vehicles in urban environments.",
-    icon: <ZooxLogo className="w-full h-full object-contain" />,
+    icon: <ZooxLogo className="w-auto h-auto max-w-[1000px] max-h-[1000px] sm:max-w-[1000px] sm:max-h-[1000px] object-contain" />,
     date: "2025 - Current",
     link: "https://zoox.com/"
     }

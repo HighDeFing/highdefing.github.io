@@ -57,6 +57,10 @@ export default function Experience() {
                              iconStyle={{
                                  background: "white",
                                  fontSize: "1.5rem",
+                                 alignItems: "center",
+                                 justifyContent: "center",
+                                 overflow: "hidden",
+
                              }}>
                                 <h3 className="font-semibold capitalize">{item.title} - {item.company}</h3>
                                 <p className="font-normal !mt-0">{item.location}</p>
