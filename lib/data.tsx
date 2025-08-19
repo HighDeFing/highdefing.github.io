@@ -36,7 +36,17 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+type Experience = {
+  title: string;
+  location: string;
+  company: string;
+  description: string;
+  icon: React.ReactNode;
+  date: string;
+  link?: string; // Optional property
+};
+
+export const experiencesData: Experience[] = [
   {
     title: "BSc Computer Science",
     location: "Caracas, Venezuela",
