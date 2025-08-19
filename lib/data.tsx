@@ -6,7 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { PiStudent } from "react-icons/pi";
 import searchImg from "@/public/search_thesis.png";
 import gobudgetImg from "@/public/gobudget.png";
-import zooxLogo from "@/public/zoox_logo.png";
+import zooxLogo from "@/public/zoox_logo.jpeg";
 
 export const links = [
   {
@@ -105,7 +105,7 @@ export const experiencesData = [
     company: "Zoox, Inc.",
     description:
       "Currently working as an autonomous vehicle operator, ensuring the safe and efficient operation of autonomous vehicles in urban environments.",
-    icon: <img src={"https://github.com/HighDeFing/highdefing.github.io/blob/main/public/zoox_logo.jpeg"} alt="Zoox Logo" className="w-full h-full object-contain"/>,
+    icon: <img src={zooxLogo.src} alt="Zoox Logo" className="w-full h-full object-contain"/>,
       date: "2025 - Current",
     }
 ] as const;
