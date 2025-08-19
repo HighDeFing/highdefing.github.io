@@ -7,6 +7,7 @@ import { PiStudent } from "react-icons/pi";
 import searchImg from "@/public/search_thesis.png";
 import gobudgetImg from "@/public/gobudget.png";
 import zooxLogo from "@/public/zoox_logo.jpeg";
+import FIULogo from "@/public/FIU Alone.png";
 
 export const links = [
   {
@@ -90,16 +91,16 @@ export const experiencesData = [
     icon: <CgWorkAlt />,
     date: "2024 - 2024",
   },
-    {
+  {
     title: "MSc Computer Science",
     location: "Miami, FL",
     company: "Florida International University",
     description:
-      "Currently enrolled with focus in Artificial Intelligence and Cloud Computing",
-    icon: <PiStudent />,
+        "Currently enrolled with focus in Artificial Intelligence and Cloud Computing",
+    icon: <img src={FIULogo.src} alt="FIU Logo" className="w-full h-full object-contain"/>,
     date: "2024 - Current",
   },
-    {
+  {
     title: "Autonomous Vehicle Operator",
     location: "Miami, FL",
     company: "Zoox, Inc.",
