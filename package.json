@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.0.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "next": "^16.4.6",
@@ -17,19 +18,18 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.10.3",
-    "react-vertical-timeline-component": "^3.6.0",
-    "@svgr/webpack": "^6.0.0"
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-vertical-timeline-component": "^3.3.6",
-    "eslint": "^8",
-    "eslint-config-next": "16.4.6",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.6",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5",
-    "@svgr/webpack": "^6.0.0"
+    "typescript": "^5"
   }
 }
